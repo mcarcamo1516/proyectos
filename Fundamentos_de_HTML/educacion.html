@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Manuel Carcamo" />
+    <title>Hoja de Vida - Manuel Carcamo</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.svg" width="200">
+        <h1>Hoja de Vida</h1>
+    </header>
+    <h2>Datos Personales</h2>
+    <h3>Manuel Carcamo</h3>
+    <h3>Fecha Nacimiento: 02-04-1985</h3>
+    <h3>Lugar De Nacimiento: Santiago De Chile</h3>
+    <!-- Menu pagina-->
+    <navbar>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="educacion.html">EDUCACION</a></li>
+            <li><a href="experiencia.html">EXPERIENCIA</a></li>
+        </ul>
+    </navbar>
+    <!-- Fin menu pagina-->
+    <h2>Educacion</h2>
+    <table border="1">
+        <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+        </tr>
+        <tr>
+            <td>2004</td>
+            <td>PUCV</td>
+            <td>Valparaiso</td>
+            <td>NO</td>
+        </tr>
+        <tr>
+            <td>2007</td>
+            <td>INACAP</td>
+            <td>Santiago</td>
+            <td>SI</td>
+        </tr>
+
+    </table>
+    <!--Inicio formulario-->
+    <form action="">
+        <h3>Agregar Estudio</h3>
+        <p>
+            <label for="age">Año</label><br/>
+            <select name="age">
+            <option value="1">2000</option>
+            <option value="1">2001</option>
+            <option value="1">2002</option>
+            <option value="1">2003</option>
+            <option value="1">2004</option>
+            <option value="1">2005</option>
+            <option value="1">2006</option>
+            <option value="1">2007</option>
+            <option value="1">2008</option>
+            <option value="1">2009</option>
+            <option value="1">2010</option>
+            <option value="1">2011</option>
+            <option value="1">2012</option>
+            <option value="1">2013</option>
+            <option value="1">2014</option>
+            <option value="1">2015</option>
+            <option value="1">2016</option>
+            <option value="1">2017</option>
+            <option value="1">2018</option>
+            </select>
+        </p>
+        <p>
+            <label for="institucion">Institucion:</label><br/>
+            <input type="text" name="institucion" required><br/>
+        </p>
+        <p>
+            <label for="lugar">Lugar:</label><br/>
+            <textarea name="lugar" id="" cols="30" rows="2"></textarea><br/>
+        </p>
+        
+        <p><label for=culmino>¿Culmino?</label><br/>
+            <input type="radio" name="culmino">si<br>
+            <input type="radio" name="culmino">no<br>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+    <!--Fin formulario-->
+    
+    <!-- Pie pagina-->
+    <footer>
+    <p>&copy; Todos Los Derechos Reservados</p>
+    <p><a href="mailto:mcarcamo1516@yahoo.es">mcarcamo1516@yahoo.es</a> | <a href="tel:+56 9 8926 5308">+56 9 8926 5308</a> | <a href="https://www.facebook.com/mcarcamo1516">facebook</a> | <b>Direccion:</b> juan chacon corona 7301, cerro navia, santiago de chile  </p>  
+    </footer>
+    <!--Fin pie pagina-->
+</body>
+
+</html>
